@@ -1,5 +1,7 @@
 {
   "name": "gulpStarter",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp-uglifycss": "^1.0.4"
   }
 }
