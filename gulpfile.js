@@ -1,10 +1,10 @@
 var gulp = require('gulp');
-var uglifycss = require('gulp-uglifycss');
+var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
 
 gulp.task('css', function () {
-  gulp.src('./style.css')
-    .pipe(uglifycss())
-    .pipe(rename('style.min.css'))
-    .pipe(gulp.dest('./'));
+  gulp.src('./css/*.css')
+    .pipe(cssmin())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('./build/'));
 });

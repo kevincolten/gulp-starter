@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglifycss": "^1.0.4"
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2"
   }
 }
